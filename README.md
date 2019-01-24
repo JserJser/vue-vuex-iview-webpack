@@ -1,6 +1,21 @@
+# membersys
 
-"# 2018.8.21
-"# 公司项目" 
-"# 技术栈 vue-vuex-iview-webpack" 
-"# 里面采用大量得图表 依赖请更改echarts里的china.js" 
-"# vuex暂时小白状态"
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

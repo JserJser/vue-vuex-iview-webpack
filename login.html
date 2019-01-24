@@ -6,14 +6,12 @@
 </head>
 <body>
 <div class="content_box" style="text-align: center;margin: 100px auto">
-
   <span id="login_container"></span>
   <script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
   <script>
     var obj = new WxLogin({
       id: "login_container",
       appid: "wxe53357f68ad7d773",// 正式
-
       scope: "snsapi_login",
       redirect_uri: encodeURIComponent(""+window.location.href+""),// 身边数据
       state: Math.ceil(Math.random() * 1000),
